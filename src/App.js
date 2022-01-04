@@ -1,3 +1,3 @@
 export default function App() {
-  console.log("Hello World");
+  return <h1 class="bg-primary text-light">hello world</h1>;
 }
