@@ -1,3 +1,7 @@
 export default function App() {
-  console.log("Hello World");
+  return (
+    <div>
+      <div classname="bg-primary text-light p-4">Hello World</div>
+    </div>
+  );
 }
