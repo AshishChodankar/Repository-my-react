@@ -1,21 +1,17 @@
 export default function App() {
-  let list = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1];
   return (
-    <div className="container-fluid">
-      <div className="row bg-danger text-light p-3 sticky-top">
-        <div className="col h3 ">React</div>
-      </div>
+    <div>
+      <h1>hello</h1>
+      <HelloWorld></HelloWorld>
+      <HelloWorld></HelloWorld>
+    </div>
+  );
+}
 
-      {list.map((item) => (
-        <div className="row">
-          <div className="col-12 bg-secondary text-light p-3 mt-2 ">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora
-            eos fugiat recusandae accusamus? Illum odit ipsa rem labore
-            officiis, fugiat dignissimos praesentium doloribus delectus
-            similique soluta deserunt! Debitis, expedita facere!
-          </div>
-        </div>
-      ))}
+export function HelloWorld() {
+  return (
+    <div>
+      <h1>Hello</h1>
     </div>
   );
 }
