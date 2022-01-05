@@ -3,7 +3,7 @@ export default function App() {
     <div>
       <h1>hello app</h1>
       <HelloWorld></HelloWorld>
-      <HelloWorld></HelloWorld>
+      <HelloUniverse></HelloUniverse>
     </div>
   );
 }
@@ -11,7 +11,17 @@ export default function App() {
 export function HelloWorld() {
   return (
     <div>
-      <h1>Hello</h1>
+      <h1>Hello World</h1>
+    </div>
+  );
+}
+
+export function HelloUniverse() {
+  return (
+    <div>
+      <div>Hello Universe</div>
+      <hr />
+      <div>Hello Universe1</div>
     </div>
   );
 }
