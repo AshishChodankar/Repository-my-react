@@ -1,17 +1,10 @@
+import { HelloWorld } from "./helloworld.js";
 export default function App() {
   return (
     <div>
       <h1>hello app</h1>
       <HelloWorld></HelloWorld>
       <HelloUniverse></HelloUniverse>
-    </div>
-  );
-}
-
-export function HelloWorld() {
-  return (
-    <div>
-      <h1>Hello World</h1>
     </div>
   );
 }
